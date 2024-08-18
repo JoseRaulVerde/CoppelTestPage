@@ -1,0 +1,28 @@
+.body{
+    margin: 10px
+}
+
+.bodyImage {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+  .HealthCoppelIconContainer {
+    margin: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  img {
+    max-width: 100%; 
+    height: auto;
+  }
+
+  .coppelHealthInfo{
+    display: flex;
+    gap: 10px
+  }
+  

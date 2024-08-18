@@ -1,0 +1,77 @@
+.searchBar {
+    background-color: rgb(224, 224, 43);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  }
+  
+  .bar {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+  .barInfo{
+    display: flex;
+  }
+  
+  .inputBar {
+    margin-left: 10px;
+    height: 30px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  .coppelIcon {
+    height: 100px;
+  }
+  
+  .barInfoContent {
+    margin-right: 15px;
+    border-right-style: inset;
+    font-size: x-small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  }
+
+  .login{
+    border: none;
+    background-color: inherit;
+  }
+  
+  .iconCart{
+    height: 30px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .catalogs{
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+  }
+
+  .catalogsButton{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+  }
+
+  .specialOfertsButton{
+    border: none;
+    background-color: inherit;
+    color: red;
+    cursor: pointer;
+  }
+ 
+  .containerCatalogs{
+    display: flex;
+    justify-content: space-between;
+  }
